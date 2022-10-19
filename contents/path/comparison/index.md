@@ -1,0 +1,25 @@
+﻿# Comparison
+
+- [Name of religions](religion-names)
+- [God and children](god-and-children)
+- [Word of God](word-of-god)
+- [Proselytism](proselytism)
+- [Names of Gods](names)
+- Islam & Judaism
+    - [Tired God](islam-judaism/tired-god)
+- Islam & Hinduism
+    - [Brahma or Allah](islam-hinduism/allah-brahma)
+- Islam & Baháʼí Faith
+    - [Holy books](islam-bahai-faith/holy-books)
+    - [Qibla](islam-bahai-faith/qibla)
+    - [First step](islam-bahai-faith/first-step)
+    - [Savior](islam-bahai-faith/savior)
+    - [Language](islam-bahai-faith/language)
+    - [Religions are the same](islam-bahai-faith/religions-sameness)
+    - [Months count](islam-bahai-faith/months-count)
+    - [Basmala](islam-bahai-faith/basmala)
+- Islam & Christianity
+    - [Allah or God](islam-christianity/allah-god)
+- Islam & Pantheism
+    - [Separation of the designer and the design](islam-pantheism/designer-design-separation)
+    - [Creatio ex nihilo](islam-pantheism/creatio-ex-nihilo)

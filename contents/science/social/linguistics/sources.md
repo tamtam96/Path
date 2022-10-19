@@ -1,0 +1,1 @@
+- [English etymology](https://en.wiktionary.org/wiki/Category:English_terms_by_etymology)

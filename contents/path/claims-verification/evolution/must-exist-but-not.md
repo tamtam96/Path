@@ -1,0 +1,1 @@
+- life must be possible within a broader range, but it's limited to a narrow range

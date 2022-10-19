@@ -1,0 +1,128 @@
+name: Path
+
+on:
+  # schedule:
+  #   - cron:  '30 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      # Base
+
+      - name: Add commands directory to PATH
+        run: |
+          echo "/HolismHolding/Commands" >> $GITHUB_PATH
+
+      - name: Create /HolismHolding directory
+        run: |
+          sudo mkdir /HolismHolding
+          sudo chmod 777 /HolismHolding
+
+      - name: Create /HolismSite directory
+        run: |
+          sudo mkdir /HolismSite
+          sudo chmod 777 /HolismSite
+
+      - name: Create /HolismProjects directory
+        run: |
+          sudo mkdir /HolismProjects
+          sudo chmod 777 /HolismProjects
+
+      - name: Create /Sultanimmubin directory
+        run: |
+          sudo mkdir /Sultanimmubin
+          sudo chmod 777 /Sultanimmubin
+
+      - name: Get HolismHolding/Infra using actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          repository: HolismHolding/Infra
+          token: ${{ secrets.PAT }}
+          path: HolismHolding/Infra
+      - name: Copy HolismHolding/Infra to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismHolding/Infra /HolismHolding/Infra
+
+      - name: Get HolismHolding/Commands using actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          repository: HolismHolding/Commands
+          token: ${{ secrets.PAT }}
+          path: HolismHolding/Commands
+      - name: Copy HolismHolding/Commands to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismHolding/Commands /HolismHolding/Commands
+
+      - name: Get HolismHolding/Scripts using actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          repository: HolismHolding/Scripts
+          token: ${{ secrets.PAT }}
+          path: HolismHolding/Scripts
+      - name: Copy HolismHolding/Scripts to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismHolding/Scripts /HolismHolding/Scripts
+
+      - name: Get HolismHolding/Docker using actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          repository: HolismHolding/Docker
+          token: ${{ secrets.PAT }}
+          path: HolismHolding/Docker
+      - name: Copy HolismHolding/Docker to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismHolding/Docker /HolismHolding/Docker
+
+      - name: Get HolismSite/Infra using actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          repository: HolismSite/Infra
+          token: ${{ secrets.PAT }}
+          path: HolismSite/Infra
+      - name: Copy HolismSite/Infra to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismSite/Infra /HolismSite/Infra
+
+      # Dependencies
+
+      # Main
+      
+      - name: Get Sultanimmubin/Path using actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          repository: Sultanimmubin/Path
+          token: ${{ secrets.PAT }}
+          path: Sultanimmubin/Path
+      - name: Copy Sultanimmubin/Path to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/Sultanimmubin/Path /Sultanimmubin/Path 
+
+      - name: Get Sultanimmubin/Common using actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          repository: Sultanimmubin/Common
+          token: ${{ secrets.PAT }}
+          path: Sultanimmubin/Common
+      - name: Copy Sultanimmubin/Common to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/Sultanimmubin/Common /Sultanimmubin/Common 
+      
+      - name: Build production docker
+        run: |
+          cd /Sultanimmubin/Path
+          /HolismHolding/Commands/Build
+
+      - name: Log in to GitHub Container Repository
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Push the image
+        run: |
+          docker push ghcr.io/sultanimmubin/path:latest
+          
+      - name: Logout from GitHub Container Repository
+        run: |
+          docker logout

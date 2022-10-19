@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "Web": [
+        "components/Web/Exports"
+      ],
+      "Base": [
+        "Base/Exports.js"
+      ],
+      "Pages": [
+        "pages/Exports.js"
+      ],
+      "Tailwind": [
+        "tailwind.js"
+      ],
+      "Branding": [
+        "public/Branding/Exports"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+- Nature law => uptime = 100%
+    - fundamental interactions
+        - gravity
+        - electromagnetism
+        - strong force
+        - weak force

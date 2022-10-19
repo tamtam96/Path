@@ -1,0 +1,1 @@
+export const markdownClasses = " prose pl-10 mb-10";

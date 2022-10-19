@@ -1,0 +1,3 @@
+- Business failed from where I would not think
+- Death of father, with a lot of pain
+- Extremely frightening night (grandmother's house)

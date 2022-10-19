@@ -1,0 +1,2 @@
+- بدم میاد، خوشم میاد
+    - my bad comes, my good comes
