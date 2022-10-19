@@ -1,3 +1,27 @@
+export const playlists = [
+    "Pharmacology",
+    "Orthopedics",
+    "Nursing",
+    "Microbiology",
+    "Neuro Pharmacology",
+    "Case Studies",
+    "Cardiovascular Physiology",
+    "Endocrine Physiology",
+    "Hematology",
+    "Immunology",
+    "Metabolism",
+    "Musculoskeletal System",
+    "Renal Physiology",
+    "Reproductive",
+    "Respiratory Physiology",
+    "Neurology",
+    "Special Senses",
+    "The Circulatory System",
+    "Biochemistry",
+    "General Chemistry",
+    "Organic Chemistry"
+]
+
 export const videos = [
     "lCJke5YtZZo",
     "EorS6vzV0h8",

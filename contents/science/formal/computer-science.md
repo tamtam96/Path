@@ -1,0 +1,44 @@
+# Computer Science
+
+- [Crash Course](https://www.youtube.com/playlist?app=desktop&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+
+    - Early Computing
+    - Electronic Computing
+    - Boolean Logic & Logic Gates
+    - Representing Numbers and Letters with Binary
+    - How Computers Calculate - the ALU
+    - Registers and RAM
+    - The Central Processing Unit (CPU)
+    - Instructions & Programs
+    - Advanced CPU Designs
+    - Early Programming
+    - The First Programming Languages
+    - Programming Basics: Statements & Functions
+    - Intro to Algorithms
+    - Data Structures
+    - Alan Turing
+    - Software Engineering
+    - Integrated Circuits & Moore’s Law
+    - Operating Systems
+    - Memory & Storage
+    - Files & File Systems
+    - Compression
+    - Keyboards & Command Line Interfaces
+    - Screens & 2D Graphics
+    - The Cold War and Consumerism
+    - The Personal Computer Revolution
+    - Graphical User Interfaces
+    - 3D Graphics
+    - Computer Networks
+    - The Internet
+    - The World Wide Web
+    - Cybersecurity
+    - Hackers & Cyber Attacks
+    - Cryptography
+    - Machine Learning & Artificial Intelligence
+    - Computer Vision
+    - Natural Language Processing
+    - Robots
+    - Psychology of Computing
+    - Educational Technology
+    - The Singularity, Skynet, and the Future of Computing
