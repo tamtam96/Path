@@ -5,5 +5,6 @@
 - [Mythology](mythology)
 - [Philosophy](philosophy)
 - [Psychology](psychology)
+- [Sociology](sociology)
 - [US History](us-history)
 - [World history](world-history)
