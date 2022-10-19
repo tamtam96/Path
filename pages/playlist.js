@@ -5,7 +5,6 @@ import { JSDOM } from 'jsdom'
 const links = [
     "https://www.youtube.com/playlist?list=PLybg94GvOJ9Gn1tz2WIe-75UuZSL3wSJK",
     "https://www.youtube.com/playlist?list=PLybg94GvOJ9GlYQJWEhxOBtNXH5DKeNsN",
-    "https://www.youtube.com/playlist?list=PLybg94GvOJ9Hbvjsj-mqGNeezm67GgPv2",
     "https://www.youtube.com/playlist?list=PLybg94GvOJ9HpCr9iU9YXHa5kXj0Pp2dA",
     "https://www.youtube.com/playlist?list=PLybg94GvOJ9HjfcQeJcNzLUFxa4m3i7FW",
     "https://www.youtube.com/playlist?list=PLybg94GvOJ9FAFBqQGf5-4YbfKpWbJtGn",

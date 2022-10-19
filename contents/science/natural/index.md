@@ -1,35 +1,26 @@
 ﻿# Natural Sciences
 
-- [Anatomy & Physiology](anatomy-and-physiology/index)
-- [Astronomy](astronomy/index)
-- [Biochemistry](biochemistry/index)
-- [Biology](biology/index)
-- [Botany](botany/index)
-- [Chemistry](chemistry/index)
-- [Classical physics](classical-physics/index)
-- [Embryology](embryology/index)
-- [GCSE biology](gcse-biology/index)
-- [GCSE chemistry](gcse-chemistry/index)
-- [GCSE physics](gcse-physics/index)
-- [Immunology](immunology/index)
-- [Microbiology](microbiology/index)
-- [Modern physics](modern-physics/index)
-- [Mycoloty](mycology/index)
-- [Neurology](neurology/index)
-- [Organic chemistry](organic-chemistry/index)
-- [Particle physics](particle-physics/index)
-- [Quantum physics](quantum-physics/index)
-- [Zoology](zoology/index)
+- [Anatomy & Physiology](anatomy-and-physiology)
+- [Astronomy](astronomy)
+- [Biochemistry](biochemistry)
+- [Biology](biology)
+- [Botany](botany)
+- [Chemistry](chemistry)
+- [Classical physics](classical-physics)
+- [Embryology](embryology)
+- [GCSE biology](gcse-biology)
+- [GCSE chemistry](gcse-chemistry)
+- [GCSE physics](gcse-physics)
 - [Geology](geology)
-                
-<!-- 
-immunology
-mycology
-botony
-history of drugs
-pharmacology
-microbiology
--->
+- [Immunology](immunology)
+- [Microbiology](microbiology)
+- [Modern physics](modern-physics)
+- [Mycology](mycology)
+- [Neurology](neurology)
+- [Organic chemistry](organic-chemistry)
+- [Particle physics](particle-physics)
+- [Quantum physics](quantum-physics)
+- [Zoology](zoology)
 
 ### Playlists
 
