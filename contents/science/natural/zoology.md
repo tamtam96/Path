@@ -10,7 +10,15 @@
     - Cleavage, Gastrulation, Organogenesis
     - Organization and Symmetry in Kingdom Animalia
     - Phylum Porifera: Sponges
-    - Phylum Cnidaria Part 1
-    - Phylum Cnidaria Part 2
-    - Phylum Cnidaria Part 3
-
+    - Phylum Cnidaria
+    - Phylum Cnidaria: Class Hydrozoa
+    - Phylum Cnidaria: Classes Scyphozoa and Staurozoa
+    - Phylum Cnidaria: Class Cubozoa
+    - Phylum Cnidaria: Class Anthozoa
+    - Phylum Cnidaria: Coral Reefs
+    - Phylum Cnidaria: Myxozoa and Polypodiozoa
+    - Phylum Placozoa: Plate Animals
+    - Phylum Ctenophora: Comb Jellies
+    - Phylum Xenacoelomorpha and Nephrozoa
+    - Spiralia and Lophotrochozoa
+    - hylum Platyhelminthes
