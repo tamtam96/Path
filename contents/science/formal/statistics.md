@@ -1,0 +1,48 @@
+# Statistics
+
+- [Crash Course](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW3iJO4T0qUeUEp_X-f1U7S)
+
+    - What Is Statistics
+    - Mathematical Thinking
+    - Mean, Median, and Mode: Measures of Central Tendency
+    - Measures of Spread
+    - Charts Are Like Pasta - Data Visualization Part 1
+    - Plots, Outliers, and Justin Timberlake: Data Visualization Part 2
+    - The Shape of Data: Distributions
+    - Correlation Doesn’t Equal Causation
+    - Controlled Experiments
+    - Sampling Methods and Bias with Surveys
+    - Science Journalism
+    - Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection
+    - Probability Part 1: Rules and Patterns
+    - Probability Part 2: Updating Your Beliefs with Bayes
+    - The Binomial Distribution
+    - Geometric Distributions and The Birthday Paradox
+    - Randomness
+    - Z-Scores and Percentiles
+    - The Normal Distribution
+    - Confidence Intervals
+    - How P-Values Help Us Test Hypotheses
+    - P-Value Problems
+    - Playing with Power: P-Values Pt 3
+    - You Know I’m All About that Bayes
+    - Bayes in Science and Everyday Life
+    - Test Statistics
+    - T-Tests: A Matched Pair Made in Heaven
+    - Degrees of Freedom and Effect Sizes
+    - Chi-Square Tests
+    - P-Hacking
+    - The Replication Crisis
+    - Regression
+    - ANOVA
+    - ANOVA Part 2: Dealing with Intersectional Groups
+    - Fitting Models Is like Tetris
+    - Supervised Machine Learning
+    - Unsupervised Machine Learning
+    - Intro to Big Data
+    - Big Data Problems
+    - Statistics in the Courts
+    - Neural Networks
+    - War
+    - When Predictions Fail
+    - When Predictions Succeed

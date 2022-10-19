@@ -1,13 +1,14 @@
 ﻿
 # Formal sciences
 
-- [Advanced Math](advanced-math/index)
-- [Algebra](algebra/index)
-- [Calculus](calculus/index)
-- [Geometry](geometry/index)
-- [Linear Algebra](linear-algebra/index)
-- [Others](others/index)
-- [Trigonometry](trigonometry/index)
+- [Advanced Math](advanced-math)
+- [Algebra](algebra)
+- [Calculus](calculus)
+- [Geometry](geometry)
+- [Linear Algebra](linear-algebra)
+- [Others](others)
+- [Statistics](statistics)
+- [Trigonometry](trigonometry)
 
 ***
 
