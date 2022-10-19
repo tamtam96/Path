@@ -1,0 +1,45 @@
+# Mythology
+
+- [Crash Course]()
+
+    - What Is Myth?
+    - Creation from the Void
+    - Cosmic Sexy Time, Eggs, Seeds, and Water
+    - Earth Mothers and Rebellious Sons - Creation Part 3
+    - Social Orders and Creation Stories
+    - Humans and Nature and Creation
+    - Pantheons of the Ancient Mediterranean
+    - Indian Pantheons
+    - The Greeks and Romans - Pantheons Part 3
+    - The Norse Pantheon
+    - African Pantheons and the Orishas
+    - Theories of Myth
+    - Great Goddesses
+    - Fire and Buffalo Goddesses
+    - Archetypes and Male Divinities
+    - Noah's Ark and Floods in the Ancient Near East
+    - Yu the Engineer and Flood Stories from China
+    - American Floods
+    - The Dying God
+    - Tricksters: An Introduction
+    - Hermes and Loki and Tricksters Part 2
+    - Coyote and Raven, American Tricksters
+    - The Apocalyspe
+    - Ragnarok
+    - The Hero's Journey and the Monomyth
+    - The Epic of Gilgamesh
+    - Rama and the Ramayana
+    - Galahad, Perceval, and the Holy Grail
+    - The Mwindo Epic
+    - Herakles. Or Hercules. A Problematic Hero
+    - Ma'ui, Oceania's Hero
+    - Mythical Caves and Gardens
+    - Mythical Mountains
+    - Mythical Trees
+    - Cities of Myth
+    - Monsters. They're Us, Man
+    - Mythical Horses
+    - Serpents and Dragons
+    - Witches and Hags
+    - Freud, Jung, Luke Skywalker, and the Psychology of Myth
+    - Mythical Language and Idiom
