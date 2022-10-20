@@ -8,6 +8,7 @@
 - [Chemistry](chemistry)
 - [Classical physics](classical-physics)
 - [Embryology](embryology)
+- [Geography](geography)
 - [Geology](geology)
 - [Immunology](immunology)
 - [Microbiology](microbiology)

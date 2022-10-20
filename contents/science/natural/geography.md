@@ -1,0 +1,55 @@
+# Geography
+
+- [Crash Course](https://www.youtube.com/playlist?app=desktop&list=PL8dPuuaLjXtO85Sl24rSiVQ93q7vcntNF)
+
+    - What is Geography?
+    - What is a Map?
+    - What is space and how do we study it?
+    - What is Physical Geography?
+    - How Does the Earth Move?
+    - What Does the Atmosphere Do?
+    - How Does Air Temperature Shape a Place?
+    - Where Does Wind Come From?
+    - How Do Oceans Circulate?
+    - What is a Cloud?
+    - How Can Rain Create Conflict? Precipitation and Water Use:
+    - What Are the Different Types of Cyclones?
+    - How do we Classify Climates?
+    - What is Climate Change?
+    - What Are Ecosystems?
+    - Population & Food:
+    - What is Soil (and Why is it Important)?:
+    - What Are Rocks and How Do They Form?
+    - The Plate Tectonics Revolution:
+    - How Does the Earth Create Different Landforms?
+    - What Are Volcanoes?
+    - What is Weathering?
+    - How Rivers Shape the Landscape:
+    - Why Does Jakarta Flood So Easily?
+    - Groundwater & the Israeli-Palestinian Conflict:
+    - What Are Glaciers?
+    - Natural Hazards:
+    - What is Human Geography?
+    - Race, Ethnicity, and the Cultural Landscape:
+    - How Does Language Move?
+    - How Did Religion Spread Along the Silk Road?
+    - Where and Why Do People Move?
+    - How Populations Grow and Change:
+    - How Does Disease Move?
+    - Tyranny of the Map:
+    - What Holds a Country Together or Tears it Apart?
+    - What are the Patterns of Border Conflicts?
+    - Capitalism, Communism, & Political Economies:
+    - Colonialism:
+    - What is a “Developed” Country?
+    - Agribusiness, GMOs, and their Role in Development:
+    - Why is There Uneven Access to Food?
+    - How Do We Produce Food?
+    - Mineral Extraction:
+    - Why are People Moving to Cities?
+    - How Are Cities Organized?
+    - What is Urban Planning?
+    - How did Detroit Become the Motor City? | Industrial Geography
+    - Sustainable Cities:
+    - Geographies of the Future:
+    - Crash Course Office Hours: Geography
