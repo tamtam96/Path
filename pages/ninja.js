@@ -214,7 +214,6 @@ export const videos = [
     "yXLBuy38jQM",
     "sQDrhn_I1-8",
     "UnRAKacFVvE",
-    "naVOWbsgDrY",
     "t5DvF5OVr1Y",
     "MMn7YXIYqbQ",
     "OYgVmOLF2mY",

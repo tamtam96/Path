@@ -1,5 +1,91 @@
 # Chemistry
 
+- [Professor Dave Explains](https://www.youtube.com/playlist?list=PLybg94GvOJ9EbbO2RXPWTUNIIE0C7hSfm)
+
+	- Introduction to Chemistry
+	- Types of Matter: Elements, Compounds, and Mixtures
+	- Measurement and Significant Figures
+	- Scientific Notation and Dimensional Analysis
+	- History of Atomic Theory
+	- Nuclide Symbols: Atomic Number, Mass Number, Ions, and Isotopes
+	- Balancing Chemical Equations
+	- The Mole: Avogadro's Number and Stoichiometry
+	- Limiting Reagents and Percent Yield
+	- Elemental Analysis: Empirical and Molecular Formulas
+	- Kinetic Molecular Theory and the Ideal Gas Laws
+	- Wave-Particle Duality and the Photoelectric Effect
+	- Bohr Model of the Hydrogen Atom
+	- Quantum Mechanics of the Electron
+	- Quantum Numbers, Atomic Orbitals, and Electron Configurations
+	- The Periodic Table: Atomic Radius, Ionization Energy, and Electronegativity
+	- The Chemical Bond: Covalent vs. Ionic and Polar vs. Nonpolar
+	- Naming Ionic Compounds
+	- Lewis Dot Structures
+	- VSEPR Theory and Molecular Geometry
+	- Intermolecular Forces and Boiling Points
+	- Thermochemistry: Heat and Enthalpy
+	- Hess's Law and Heats of Formation
+	- Heat Capacity, Specific Heat, and Calorimetry
+	- Phase Changes, Heats of Fusion and Vaporization, and Phase Diagrams
+	- Solution Chemistry and Net Ionic Equations
+	- Molarity and Dilution
+	- Solubility and the Born-Haber Cycle
+	- Molality and Colligative Properties
+	- The Laws of Thermodynamics, Entropy, and Gibbs Free Energy
+	- Kinetics: Initial Rates and Integrated Rate Laws
+	- Energy Diagrams, Catalysts, and Reaction Mechanisms
+	- Chemical Equilibria and Reaction Quotients
+	- Le Chatelier's Principle
+	- Valence Bond Theory, Hybrid Orbitals, and Molecular Orbital Theory
+	- Acids and Bases, pH and pOH
+	- Acid-Base Equilibria and Buffer Solutions
+	- Acid-Base Titration
+	- Oxidation-Reduction Reactions
+	- Electrochemistry
+	- Nuclear Reactions, Radioactivity, Fission and Fusion
+	- Accuracy and Precision for Data Collection
+	- Converting Between Temperature Scales (Celsius, Fahrenheit, and Kelvin)
+	- Visualizing Molecular Geometry With 3D Software
+	- Calculating Percent Error
+	- Nomenclature of Oxyacids
+	- Nomenclature of Hydrated Salts
+	- Writing Chemical Equations in Words
+	- The Law of Conservation of Matter
+	- Expressing Concentration by Mass Percent
+	- Calculating the Formulas of Hydrated Salts
+	- What Are Electrolytes?
+	- Calculating Ion Concentrations in Solution
+	- Neutralization Reactions
+	- Dalton's Law and Partial Pressures
+	- What Are Standard Conditions?
+	- Molar Gas Volume: Stoichiometry With Gases
+	- Kinetic Molecular Theory and its Postulates
+	- Temperature and Gas Solubility
+	- Balancing Redox Reactions in Acidic and Basic Conditions
+	- Pseudo Noble Gas Electron Configurations
+	- Complex Ion Formation
+	- Lattice Structures in Ionic Solids
+	- Covalent Bond Energy and Length
+	- Limitations of VSEPR Theory
+	- Examples of s-p Mixing in Molecular Orbital Theory
+	- Measuring Pressure With Barometers and Manometers
+	- Non-Ideal Gases and the Van der Waals Equation
+	- Viscosity, Cohesive and Adhesive Forces, Surface Tension, and Capillary Action
+	- Types of Colloids and Their Properties
+	- Solubility Product Constant (Ksp)
+	- Predicting Precipitation With Ksp Values
+	- Selective Precipitation
+	- The Common Ion Effect
+	- Coordination Compounds: Geometry and Nomenclature
+	- Crystal Field Theory
+	- Radiometric Dating: Carbon-14 and Uranium-238
+	- Conductivity and Semiconductors
+	- Spectrophotometry and Beer's Law
+	- The Chemistry of Air Purification
+	- Free Energy of Dissolution
+	- Metallic Bonds
+	- Alloys: Types and Examples
+
 - [FuseSchool]()
 
 	- The Pharmaceutical Industry | Environmental
@@ -303,4 +389,4 @@
 	- Climate change and the enhanced greenhouse effect | Environmental Chemistry
 	- Limestone Cycle - limestone, quicklime and slaked lime
 	- Transition metals and their properties | Matter
-	- Haber Process - environmental and social considerations"
+	- Haber Process - environmental and social considerations

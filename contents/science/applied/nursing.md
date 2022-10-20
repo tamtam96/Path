@@ -1,0 +1,45 @@
+# Nursing
+
+- [Ninja Nerd](https://www.youtube.com/playlist?list=PLTF9h-T1TcJhefYG3mUrcIvzS-K7u8-wf)
+
+    - Glasgow Coma Scale (GCS)
+    - Chest Tubes
+    - Furosemide (Lasix)
+    - Blood Transfusion
+    - Acetaminophen (Tylenol)
+    - Abdominal Aortic Aneurysm (AAA)
+    - Raynaud's Phenomenon
+    - Central Venous Catheter
+    - Blood Pressure Basics
+    - Cardiac Output
+    - Valvular Heart Disease & Mechanical Heart Valves
+    - Orthostatic Blood Pressure
+    - Digoxin
+    - Mixing Insulin
+    - IV Fluids
+    - Parkland Burn Formula & Rule of Nines
+    - Nursing Care of Burns 🔥
+    - Cataracts
+    - Glaucoma
+    - Macular Degeneration
+    - Retinal Detachment
+    - Ectopic Pregnancy
+    - Pre-Eclampsia
+    - HELLP Syndrome
+    - Placenta Previa
+    - Abruptio Placentae
+    - Hyperemesis Gravidarum
+    - Gestational Diabetes Mellitus (GDM)
+    - Preterm Labor
+    - Stages of Labor
+    - Leopold Maneuvers
+    - Umbilical Cord Prolapse
+    - Meconium Stained Amniotic Fluid
+    - Uterine Rupture
+    - Pacemakers
+    - Nursing Triage
+    - Warfarin
+    - Cirrhosis
+    - Paracentesis
+    - GERD
+    - Proton Pump Inhibitors (PPI's)
