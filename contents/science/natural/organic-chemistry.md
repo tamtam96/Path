@@ -1,0 +1,54 @@
+# Organic Chemistry
+
+- [Crash Course](https://www.youtube.com/playlist?list=PL8dPuuaLjXtONguuhLdVmq0HTKS0jksS4)
+
+    - What Is Organic Chemistry?
+    - The Basics of Organic Nomenclature
+    - More Organic Nomenclature: Heteroatom Functional Groups
+    - 3D Structure and Bonding
+    - IR Spectroscopy and Mass Spectrometry
+    - Alkanes
+    - Cyclohexanes
+    - Stereochemistry
+    - More Stereochemical Relationships
+    - Polarity, Resonance, and Electron Pushing
+    - Acidity
+    - Nucleophiles and Electrophiles
+    - Intro to Reaction Mechanisms
+    - E/Z Alkenes, Electrophilic Addition, & Carbocations
+    - Thermodynamics and Energy Diagrams
+    - Alkene Addition Reactions
+    - Alkene Redox Reactions
+    - Alkyne Reactions & Tautomerization
+    - Radical Reactions & Hammond's Postulate
+    - Intro to Substitution Reactions
+    - Substitution Reactions - SN1 and SN2 Mechanisms
+    - E1 and E2 Reactions
+    - Determining SN1, SN2, E1, and E2 Reactions
+    - Alcohols, Ethers, and Epoxides
+    - Synthesis and Column Chromatography
+    - How to Identify Molecules - Proton NMR
+    - An Overview of Aldehydes and Ketones
+    - Organometallic Reagents and Carbanions
+    - Aldehyde and Ketone Reactions - Hydrates, Acetals, & Imines
+    - Carboxylic Acids
+    - Carboxylic Acid Derivatives & Hydrolysis Reactions
+    - Carboxylic Acid Derivatives - Interconversion & Organometallics
+    - Chemoselectivity and Protecting Groups
+    - Retrosynthesis and Liquid-Liquid Extraction
+    - Polymer Chemistry
+    - Aromaticity, Hückel's Rule, and Chemical Equivalence in NMR
+    - Intro to Electrophilic Aromatic Substitution
+    - More EAS - Electron Donating and Withdrawing Groups
+    - More EAS & Benzylic Reactions
+    - Synthesis, Distillation, & Recrystallization
+    - Conjugation & UV-Vis Spectroscopy
+    - The Diels-Alder & Other Pericyclic Reactions
+    - Enols and Enolates - Reactivity, Halogenation, and Alkylation
+    - The Aldol and Claisen Reactions
+    - Crossed Aldol Reactions, Enones, and Conjugate Addition
+    - Amines
+    - Diazonium Salts & Nucleophilic Aromatic Substitution
+    - Biochemical Building Blocks & Fischer and Haworth Projections
+    - Biological Polymers
+    - Medicinal Chemistry and Penicillin Total Synthesis
