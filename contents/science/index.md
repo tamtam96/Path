@@ -56,6 +56,9 @@
 - [Practical Engineering](https://youtube.com/c/PracticalEngineeringChannel)
 - [Lesics](https://youtube.com/c/Lesics)
 - [Animagraphs](https://youtube.com/c/animagraffs)
+- [Nucleus Medical Media](https://www.youtube.com/c/NucleusMedicalMedia)
+- [First Look MRI](https://youtube.com/c/FirstLookMRI)
+- [Age2B](https://www.youtube.com/c/Age2Be)
 
 ---
 

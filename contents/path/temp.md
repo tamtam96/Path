@@ -2,6 +2,10 @@
 
 ---
 
+Find the list of the greatest books of all time. For example from [thegreatestbooks.org](https://thegreatestbooks.org/). Then compare any of them to the Quran.
+
+---
+
 Using technical words does not rule out the existence of the creator.
 alcohol, aldehyde, ester, ketone, amid, carboxylic acid, acetal, etc... do not rule out the creation.
 just as capuchino, maco, latte, esperso, frapo, moca, makiato does not rule out the chef.
