@@ -528,7 +528,6 @@ export const videos = [
     'mHtzmlf3Ixo',
     'OxVBT83x8oc',
     '2ClvuDRXDmw',
-    'uaog3UM7DT8',
     '0L_MvPLspdg',
     '9PRvKV2IcLg',
     '-Md4CEW0-zM',
