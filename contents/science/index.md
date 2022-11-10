@@ -64,7 +64,7 @@
 - https://youtube.com/c/Trevtutor
 - https://youtube.com/c/ReligionForBreakfast
 - https://youtube.com/c/InstituteofHumanAnatomy
-
+- https://youtube.com/c/physicsdemos
 
 ---
 
