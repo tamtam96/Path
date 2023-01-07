@@ -47,3 +47,6 @@ If men and women are euqal, why sports are segragated by gender?
 - A Billion Wicked Thoughts: What the World's Largest Experiment Reveals about Human Desire
 
 - what about andrigen, estrogen, and projestron? Why we have "man-maker" hormone, but not "woman-maker"? Whay this namimg?
+
+### provision and protection
+Do women loke to provide for men while they keep babies? Do women like to protect men?
