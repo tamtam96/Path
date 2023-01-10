@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  buildAndPush:
+  build:
     runs-on: ubuntu-latest
     steps:
 
@@ -21,15 +21,20 @@ jobs:
           sudo mkdir /HolismHolding
           sudo chmod 777 /HolismHolding
 
-      - name: Create /HolismPanel directory
+      - name: Create /HolismSite directory
         run: |
-          sudo mkdir /HolismPanel
-          sudo chmod 777 /HolismPanel
+          sudo mkdir /HolismSite
+          sudo chmod 777 /HolismSite
 
       - name: Create /HolismProjects directory
         run: |
           sudo mkdir /HolismProjects
           sudo chmod 777 /HolismProjects
+
+      - name: Create /Sultanimmubin directory
+        run: |
+          sudo mkdir /Sultanimmubin
+          sudo chmod 777 /Sultanimmubin
 
       - name: Get HolismHolding/Infra
         uses: actions/checkout@v3
@@ -71,32 +76,47 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Docker /HolismHolding/Docker
 
-      - name: Get HolismPanel/Infra
+      - name: Get HolismHolding/Fonts
         uses: actions/checkout@v3
         with:
-          repository: HolismPanel/Infra
+          repository: HolismHolding/Fonts
           token: ${{ secrets.PAT }}
-          path: HolismPanel/Infra
-      - name: Copy HolismPanel/Infra to root
+          path: HolismHolding/Fonts
+      - name: Copy HolismHolding/Fonts to root
         run: |
-          cp -r $GITHUB_WORKSPACE/HolismPanel/Infra /HolismPanel/Infra
+          cp -r $GITHUB_WORKSPACE/HolismHolding/Fonts /HolismHolding/Fonts
 
-      - name: Create /Sultanimmubin directory
+      - name: Get HolismSite/Infra
+        uses: actions/checkout@v3
+        with:
+          repository: HolismSite/Infra
+          token: ${{ secrets.PAT }}
+          path: HolismSite/Infra
+      - name: Copy HolismSite/Infra to root
         run: |
-          sudo mkdir /Sultanimmubin
-          sudo chmod 777 /Sultanimmubin
+          cp -r $GITHUB_WORKSPACE/HolismSite/Infra /HolismSite/Infra
+
+      - name: Get HolismSite/Qwik
+        uses: actions/checkout@v3
+        with:
+          repository: HolismSite/Qwik
+          token: ${{ secrets.PAT }}
+          path: HolismSite/Qwik
+      - name: Copy HolismSite/Qwik to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismSite/Qwik /HolismSite/Qwik
 
       # Dependencies
 
-      - name: Get HolismPanel/Entities
+      - name: Get HolismSite/Entities
         uses: actions/checkout@v3
         with:
-          repository: HolismPanel/Entities
+          repository: HolismSite/Entities
           token: ${{ secrets.PAT }}
-          path: HolismPanel/Entities
-      - name: Copy HolismPanel/Entities to root
+          path: HolismSite/Entities
+      - name: Copy HolismSite/Entities to root
         run: |
-          cp -r $GITHUB_WORKSPACE/HolismPanel/Entities /HolismPanel/Entities 
+          cp -r $GITHUB_WORKSPACE/HolismSite/Entities /HolismSite/Entities 
 
       # Main
       

@@ -2,8 +2,8 @@ const fs = require('fs')
 const path = require('path')
 import { useEffect } from 'react'
 import Error from 'next/error'
-import Breadcrumb from '../components/Breadcrumb'
-import { markdownClasses } from '../components/MarkdownClasses'
+import Breadcrumb from '../Components/Breadcrumb'
+import { markdownClasses } from '../Components/MarkdownClasses'
 import { marked } from 'marked'
 
 const index = ({
@@ -50,7 +50,7 @@ const index = ({
 export async function getServerSideProps({ params, res }) {
     //console.time('time')
     const urlSegments = params.path || []
-    const diskSegments = [process.cwd(), 'contents'].concat(urlSegments)
+    const diskSegments = [process.cwd(), 'Contents'].concat(urlSegments)
     var filePath = path.join.apply(null, [...diskSegments, 'index.html'])
     if (!fs.existsSync(filePath)) {
         filePath = path.join.apply(null, [...diskSegments, 'index.md'])

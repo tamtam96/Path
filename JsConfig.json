@@ -2,17 +2,26 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "Hooks": [
+        "Hooks/Exports"
+      ],
       "Web": [
-        "components/Web/Exports"
+        "Components/Web/Exports"
+      ],
+      "Contexts": [
+        "Contexts/Exports"
       ],
       "Base": [
-        "Base/Exports.js"
+        "Base/Exports"
       ],
       "Pages": [
-        "pages/Exports.js"
+        "pages/Exports"
       ],
-      "Tailwind": [
-        "tailwind.js"
+      "Shared": [
+        "Components/Shared/Exports"
+      ],
+      "Entities": [
+        "Modules/Entities/Exports"
       ],
       "Branding": [
         "public/Branding/Exports"
