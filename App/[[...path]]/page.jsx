@@ -1,8 +1,5 @@
-'use client'
-
 const fs = require('fs')
 const path = require('path')
-import { useEffect } from 'react'
 import Error from 'next/error'
 import { Breadcrumb } from 'Shared'
 import { marked } from 'marked'
