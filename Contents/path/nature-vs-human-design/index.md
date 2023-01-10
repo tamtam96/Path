@@ -1,9 +1,14 @@
 ﻿# Nature vs. Human Design
 
+## Goal
+Natural >= Human intelligence at the current time
+
+## Comparison
+
 | Topic | Nature | Comparison | Human | Reason | Equivalence example |
 |-------|--------|------------|-------|--------|---------------------|
 | [Multifunctional fluids](multifunctional-fluids) | ✔️ | > |  | one fluid, one pump, multiple functions | one fluid for braking, energy, windsheild, cooling, lubrication, ... taken only in gas stations |
-| [Histone](histone) | ✔️ | > | ✔️ | supercoiling |
+| [Coiling & supercoiling](coiling-supercoiling) | ✔️ | > | ✔️ | supercoiling |
 | [Recycling](recycling) | ✔️ | > | ✔️ | micro, in-place recyling |
 | [Coaxial cable and esophagus](coaxial-cable-and-esophagus) | ✔️ | = | ✔️ | |
 | [Heart and IC Engine](heart-and-engine) | ✔️ | = | ✔️ | |
@@ -31,6 +36,11 @@
 | [Delimanjoo and digestive system](delimanjoo-and-digestive-system)|||||
 | [Common-base-for-production](common-base-for-production)|||||
 | [Itching](itching)| ✔️ | > | | Because we can't build | A car itching itself |
+
+# Conclusion
+Nature is truly greater in design than intelligent human beings.   
+Therefore I don't accept that it's created by blind chance.  
+I accept that it's designed.
 
 
 ### Notes:
