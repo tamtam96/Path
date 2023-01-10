@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  buildAndPush:
     runs-on: ubuntu-latest
     steps:
 
@@ -21,23 +21,18 @@ jobs:
           sudo mkdir /HolismHolding
           sudo chmod 777 /HolismHolding
 
-      - name: Create /HolismSite directory
+      - name: Create /HolismPanel directory
         run: |
-          sudo mkdir /HolismSite
-          sudo chmod 777 /HolismSite
+          sudo mkdir /HolismPanel
+          sudo chmod 777 /HolismPanel
 
       - name: Create /HolismProjects directory
         run: |
           sudo mkdir /HolismProjects
           sudo chmod 777 /HolismProjects
 
-      - name: Create /Sultanimmubin directory
-        run: |
-          sudo mkdir /Sultanimmubin
-          sudo chmod 777 /Sultanimmubin
-
-      - name: Get HolismHolding/Infra using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Infra
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Infra
           token: ${{ secrets.PAT }}
@@ -46,8 +41,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Infra /HolismHolding/Infra
 
-      - name: Get HolismHolding/Commands using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Commands
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Commands
           token: ${{ secrets.PAT }}
@@ -56,8 +51,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Commands /HolismHolding/Commands
 
-      - name: Get HolismHolding/Scripts using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Scripts
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Scripts
           token: ${{ secrets.PAT }}
@@ -66,8 +61,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Scripts /HolismHolding/Scripts
 
-      - name: Get HolismHolding/Docker using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Docker
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Docker
           token: ${{ secrets.PAT }}
@@ -76,22 +71,37 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Docker /HolismHolding/Docker
 
-      - name: Get HolismSite/Infra using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismPanel/Infra
+        uses: actions/checkout@v3
         with:
-          repository: HolismSite/Infra
+          repository: HolismPanel/Infra
           token: ${{ secrets.PAT }}
-          path: HolismSite/Infra
-      - name: Copy HolismSite/Infra to root
+          path: HolismPanel/Infra
+      - name: Copy HolismPanel/Infra to root
         run: |
-          cp -r $GITHUB_WORKSPACE/HolismSite/Infra /HolismSite/Infra
+          cp -r $GITHUB_WORKSPACE/HolismPanel/Infra /HolismPanel/Infra
+
+      - name: Create /Sultanimmubin directory
+        run: |
+          sudo mkdir /Sultanimmubin
+          sudo chmod 777 /Sultanimmubin
 
       # Dependencies
 
+      - name: Get HolismPanel/Entities
+        uses: actions/checkout@v3
+        with:
+          repository: HolismPanel/Entities
+          token: ${{ secrets.PAT }}
+          path: HolismPanel/Entities
+      - name: Copy HolismPanel/Entities to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismPanel/Entities /HolismPanel/Entities 
+
       # Main
       
-      - name: Get Sultanimmubin/Path using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get Sultanimmubin/Path
+        uses: actions/checkout@v3
         with:
           repository: Sultanimmubin/Path
           token: ${{ secrets.PAT }}
@@ -100,8 +110,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/Sultanimmubin/Path /Sultanimmubin/Path 
 
-      - name: Get Sultanimmubin/Common using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get Sultanimmubin/Common
+        uses: actions/checkout@v3
         with:
           repository: Sultanimmubin/Common
           token: ${{ secrets.PAT }}
