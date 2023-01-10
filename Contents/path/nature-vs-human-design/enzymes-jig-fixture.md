@@ -10,12 +10,11 @@ Keep the workpiece in place, to accurately work on it
 
 
 ## Nature solution
-- [Enzymes]()
-    - [Active sites](https://upload.wikimedia.org/wikipedia/commons/9/9f/Lock_and_key.png) (catalysis + positioning)
-[ATP Synthase](https://youtu.be/kXpzp4RDGJI?t=58)   
-[Search](https://www.google.com/search?q=active+site&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiCjJK44O_zAhWshP0HHd4dA8MQ_AUoAXoECAEQAw)
+- [Enzymes](https://www.google.com/search?q=enzyme+proteins&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjp8OnB8rz8AhVL-6QKHSIJDoQQ_AUoAXoECAEQAw&biw=1846&bih=980&dpr=1)
+    - [Active sites](https://www.google.com/search?q=active+site&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjYi6mI8rz8AhUB76QKHRfCBTwQ_AUoAXoECAEQAw&biw=1846&bih=980&dpr=1) (catalysis + positioning)   
+[ATP Synthase](https://youtu.be/kXpzp4RDGJI?t=58)
 
-
-# Examples
+# Everyday examples
 
 - plate of a microwave
+- plug
