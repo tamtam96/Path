@@ -2,7 +2,7 @@
 
 | Topic | Nature | Comparison | Human | Reason | Equivalence example |
 |-------|--------|------------|-------|--------|---------------------|
-| [Blood and car fluids](blood-and-car-fluids) | ✔️ | > | ✔️  | one fluid, one pump, multiple functions | one fluid for braking, energy, windsheild, cooling, lubrication, ... taken only in gas stations |
+| [Multifunctional fluids](multifunctional-fluids) | ✔️ | > |  | one fluid, one pump, multiple functions | one fluid for braking, energy, windsheild, cooling, lubrication, ... taken only in gas stations |
 | [Histone](histone) | ✔️ | > | ✔️ | supercoiling |
 | [Recycling](recycling) | ✔️ | > | ✔️ | micro, in-place recyling |
 | [Coaxial cable and esophagus](coaxial-cable-and-esophagus) | ✔️ | = | ✔️ | |

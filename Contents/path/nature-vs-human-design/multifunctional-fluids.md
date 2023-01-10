@@ -1,4 +1,4 @@
-# Blood and Car Fluids
+# Multifunctional fluid
 
 | Function               | Body  | Car   |
 |------------------------|-------|-------|
