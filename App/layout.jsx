@@ -1,12 +1,12 @@
-import 'tailwindcss/tailwind.css'
-import { Versions } from 'Base'
+import { useLayout } from 'Base'
 
 function Layout({ children }) {
 
-    return <>
-        <Versions />
+    return useLayout({
+        head: <></>,
+    }).render(<>
         {children}
-    </>
+    </>)
 }
 
 export default Layout

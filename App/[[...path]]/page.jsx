@@ -4,16 +4,14 @@ const fs = require('fs')
 const path = require('path')
 import { useEffect } from 'react'
 import Error from 'next/error'
-import {
-    Breadcrumb,
-    markdownClasses,
-} from 'Shared'
+import { Breadcrumb } from 'Shared'
 import { marked } from 'marked'
+
+const markdownClasses = " prose pl-10 mb-10"
 
 const index = ({ params }) => {
 
     const data = getData({ params })
-    console.log(data)
     const {
         urlSegments,
         content,
