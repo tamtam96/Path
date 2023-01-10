@@ -11,8 +11,7 @@ Natural >= Human intelligence at the current time
 | [Coiling & supercoiling](coiling-supercoiling) | ✔️ | > | ✔️ | supercoiling |
 | [Recycling](recycling) | ✔️ | > | ✔️ | micro, full, in-place recyling | Just depositing your garbage right there where you produce them, and they're gone tomorrow
 | [Multilayer piping and wiring](multilayer-piping-wiring) | ✔️ | > | ✔️ | fine-tuned sensation & control over layers, wave-movement (peristalsis) | Creating pipes that create wave and pressure to discharge blockages
-| [Heart and IC Engine](heart-and-engine) | ✔️ | = | ✔️ | |
-| [Autotrophy and heterotrophy](autotrophy-and-heterotrophy) | ✔️ | > | ✔️ | ubiquity, many-sidedness, ... |
+| [Autotrophy and heterotrophy](autotrophy-and-heterotrophy) | ✔️ | = | ✔️ | ubiquity, storage capacity (bear and car's fuel tank), ... |
 | [Pain and pleasure](pain-and-pleasure) | ✔️ | > | | |
 | [Active site and fixture](active-site-fixture)| ✔️ |  | ✔️ | Hold workpeice tight to act upon |
 | [Gas station distribution](gas-station-distribution)| ✔️ | > | ✔️ | Extreme distribution | To have fuel everywhere, to be able to charge electrical devices everywhere|
@@ -31,6 +30,7 @@ Natural >= Human intelligence at the current time
 | [Spinal column and flexible rod](spinal-column-and-flexible-rod)|||||
 | [Preganglionic and postganglionic nerve lengths](https://youtu.be/hjuF_VbIj9I?t=590)||||| [Hormone and regulation](hormone-and-regulation)|||||
 | [Sphincter](sphincter)|||||
+| [Heart and IC Engine](heart-and-engine) | ✔️ | = | ✔️ | |
 | [Transcription factor](transcription-factor)|||||
 | [Helicase](helicase)|||||
 | [Delimanjoo and digestive system](delimanjoo-and-digestive-system)|||||
