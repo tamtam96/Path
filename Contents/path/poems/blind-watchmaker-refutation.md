@@ -1,3 +1,6 @@
+[Watchmaker analogy - William Paley](https://en.wikipedia.org/wiki/Watchmaker_analogy)
+[The Blind Watchmaker - Richard Dawkins](https://en.wikipedia.org/wiki/The_Blind_Watchmaker)
+
 گفت نابیناست نقاش جهان
 
 نقش تدریجی بود اثبات آن
@@ -42,7 +45,7 @@
 
 حق پذیر و کن خودت تعبیر بکر
 
-آنچه گویندت فقط آرا بود
+قسمتی از گفته ها آرا بود
 
 رای انسان از حقیقت وا بود
 

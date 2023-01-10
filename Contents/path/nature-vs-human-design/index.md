@@ -9,8 +9,8 @@ Natural >= Human intelligence at the current time
 |-------|--------|------------|-------|--------|---------------------|
 | [Multifunctional fluids](multifunctional-fluids) | ✔️ | > |  | one fluid, one pump, multiple functions | one fluid for braking, energy, windsheild, cooling, lubrication, ... taken only in gas stations |
 | [Coiling & supercoiling](coiling-supercoiling) | ✔️ | > | ✔️ | supercoiling |
-| [Recycling](recycling) | ✔️ | > | ✔️ | micro, in-place recyling |
-| [Coaxial cable and esophagus](coaxial-cable-and-esophagus) | ✔️ | = | ✔️ | |
+| [Recycling](recycling) | ✔️ | > | ✔️ | micro, full, in-place recyling | Just depositing your garbage right there where you produce them, and they're gone tomorrow
+| [Multilayer piping and wiring](multilayer-piping-wiring) | ✔️ | > | ✔️ | fine-tuned sensation & control over layers, wave-movement (peristalsis) | Creating pipes that create wave and pressure to discharge blockages
 | [Heart and IC Engine](heart-and-engine) | ✔️ | = | ✔️ | |
 | [Autotrophy and heterotrophy](autotrophy-and-heterotrophy) | ✔️ | > | ✔️ | ubiquity, many-sidedness, ... |
 | [Pain and pleasure](pain-and-pleasure) | ✔️ | > | | |

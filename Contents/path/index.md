@@ -30,6 +30,10 @@
 - [Logic](logic/index)
 - [History](history/index)
 
+### Poems
+- Intelligent design
+    - [Blind watchmaker refutation](poems/blind-watchmaker-refutation)
+
 Path is not about past or future. It's not about time.
 
 Path is a map. A map that shows why we are here. A map of thoughts.
