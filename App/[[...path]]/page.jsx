@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-import Error from 'next/error'
 import { Breadcrumb } from 'Shared'
 import { marked } from 'marked'
 
@@ -35,7 +34,7 @@ const index = ({ params }) => {
     // include disqus maybe
 
     if (errorCode) {
-        return <Error statusCode={errorCode} />
+        return <h1>Error - {errorCode}</h1>
     }
 
     return <>
