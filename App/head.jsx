@@ -6,7 +6,7 @@ const Head = () => {
 
     return <>
         <title>{title}</title>
-        <Favicon />
+        {/* <Favicon /> */}
     </>
 }
 

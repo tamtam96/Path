@@ -10,15 +10,10 @@ import {
 } from 'Shared'
 import { marked } from 'marked'
 
-const index = async ({
-    params,
-    res,
-}) => {
+const index = ({ params }) => {
 
-    const data = await getData({
-        params,
-        res,
-    })
+    const data = getData({ params })
+    console.log(data)
     const {
         urlSegments,
         content,
@@ -60,7 +55,7 @@ const index = async ({
     </>
 }
 
-const getData = ({ params, res }) => {
+const getData = ({ params }) => {
     //console.time('time')
     const urlSegments = params.path || []
     const diskSegments = [process.cwd(), 'Contents'].concat(urlSegments)
