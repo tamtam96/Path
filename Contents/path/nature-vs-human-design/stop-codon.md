@@ -1,5 +1,7 @@
 # Stop codon
 
+eof = end of file
+
 
 ### Process termination types
 
