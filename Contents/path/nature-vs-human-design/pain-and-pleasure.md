@@ -1,26 +1,6 @@
 # Pain & pleasure
 
-| Pain | Pleasure |
-|------|----------|
-|   burning   | Rest     |
-|    desease  | Orgasm   |
-|     fatigue | Eating   |
-|     loneliness | Sleep    |
-|      | Good smell |
-
-
-#### Definitions
-- electrochemical signals
-
-#### imaginary examples (in human design)
-
-- cell phone plugging itself
-- car orgasm in gas station
-- refregrator fleeing from sun's heat
-
-#### aspects
-- behavioral (external)
-- cognitive (internal)
-
-#### conclusion
- nature > human design
+## Human's materialistic definition
+- [Electrochemical signals](https://www.google.com/search?q=Electrochemical+signals&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiBg-zL77z8AhUQO-wKHe56CxkQ_AUoAXoECAEQAw&biw=1846&bih=980&dpr=1) (then why can't you build the same)
+- Hard problem of consciousness
+- [Qualia](https://en.wikipedia.org/wiki/Qualia)

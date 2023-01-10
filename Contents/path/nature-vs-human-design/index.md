@@ -12,8 +12,8 @@ Natural >= Human intelligence at the current time
 | [Recycling](recycling) | ✔️ | > | ✔️ | micro, full, in-place recyling | Just depositing your garbage right there where you produce them, and they're gone tomorrow
 | [Multilayer piping and wiring](multilayer-piping-wiring) | ✔️ | > | ✔️ | fine-tuned sensation & control over layers, wave-movement (peristalsis) | Creating pipes that create wave and pressure to discharge blockages
 | [Autotrophy and heterotrophy](autotrophy-and-heterotrophy) | ✔️ | = | ✔️ | ubiquity, storage capacity (bear and car's fuel tank), ... |
-| [Pain and pleasure](pain-and-pleasure) | ✔️ | > | | |
-| [Active site and fixture](active-site-fixture)| ✔️ |  | ✔️ | Hold workpeice tight to act upon |
+| [Pain and pleasure](pain-and-pleasure) | ✔️ | > | | | cell phone plugging itself, car orgasm in gas station, refregrator fleeing from sun's heat |
+| [Enzymes and jig & fixture](enzymes-jig-fixture)| ✔️ |  | ✔️ | Hold workpeice tight to act upon |
 | [Gas station distribution](gas-station-distribution)| ✔️ | > | ✔️ | Extreme distribution | To have fuel everywhere, to be able to charge electrical devices everywhere|
 | [Motor neuron](motor-neuron)| | | | |
 | [Cortical granule](cortical-granule)|||||
