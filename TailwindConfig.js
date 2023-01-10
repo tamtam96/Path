@@ -1,5 +1,5 @@
 module.exports = {
     presets: [
-        require('./Tailwind.js')
+        require('./TailwindBase.js')
     ],
 };

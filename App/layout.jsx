@@ -1,28 +1,15 @@
-import Head from 'next/head'
 import 'tailwindcss/tailwind.css'
-import {
-    Favicon,
-    SiteContext,
-    Versions,
-} from 'Base'
+import { Versions } from 'Base'
 
-function App({ Component, pageProps }) {
+function Layout({ children }) {
 
-    const title = `${process.env.NEXT_PUBLIC_BRAND} - ${process.env.NEXT_PUBLIC_SLOGAN}`
-
-    return <SiteContext.Provider
-        value={pageProps}
-    >
-        <Head>
-            <title>{title}</title>
-            <Favicon />
-        </Head>
+    return <>
         <Versions />
-        <Component />
-    </SiteContext.Provider>
+        {children}
+    </>
 }
 
-export default App
+export default Layout
 
 /*
 
