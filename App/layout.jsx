@@ -1,3 +1,4 @@
+import '../Styles/Styles.scss'
 import { useLayout } from 'Base'
 
 function Layout({ children }) {
