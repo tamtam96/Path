@@ -33,6 +33,7 @@
 ### Poems
 - Intelligent design
     - [Blind watchmaker refutation](poems/blind-watchmaker-refutation)
+- [Death](poems/death)
 
 Path is not about past or future. It's not about time.
 

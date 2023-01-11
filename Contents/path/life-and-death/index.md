@@ -5,7 +5,7 @@
 - [Ways of dying](ways-of-dying)
 - [Hundred percent phenomenon](hundred-precent-phenomenon)
 - [Entropy]()
-- [Science & prediction]()
+- [Science & prediction](science-and-prediction)
 - [Digital immortality]()
 - [Claim certainty]()
 - [Death & chaos theory]()

@@ -1,8 +1,12 @@
-﻿<h1>علم و پیش بینی</h1>
+﻿# Science & prediction
 
-<p>مگه تمام علم برای کشف فرمول و دقت بالای محاسبه در پیش بینی نیست؟</p>
+## Main purpose of science
+[Prediction](https://en.wikipedia.org/wiki/Science)
+    - Science is a systematic endeavor that builds and organizes knowledge in the form of testable explanations and predictions about the universe.
 
-<p>چرا زمان مرگ رو نمیتونین در بیارین؟</p>
-<p>چرا فرمول مرگ، زمان و مکانش رو نمیتونین بگین؟</p>
+## Question
+Why can't you predict death?
 
-<p>بگین فلانی در تاریخ فلان ساعت فلان دقیقه و ثانیه فلان میمیره.</p>
+## Request
+- Provide the death formula   
+- Predict the location and time of death
