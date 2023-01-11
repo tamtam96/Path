@@ -31,10 +31,10 @@ jobs:
           sudo mkdir /HolismProjects
           sudo chmod 777 /HolismProjects
 
-      - name: Create /SultanimMubin directory
+      - name: Create /Sultanimmubin directory
         run: |
-          sudo mkdir /SultanimMubin
-          sudo chmod 777 /SultanimMubin
+          sudo mkdir /Sultanimmubin
+          sudo chmod 777 /Sultanimmubin
 
       - name: Get HolismHolding/Infra
         uses: actions/checkout@v3
@@ -120,29 +120,29 @@ jobs:
 
       # Main
       
-      - name: Get SultanimMubin/Path
+      - name: Get Sultanimmubin/Path
         uses: actions/checkout@v3
         with:
-          repository: SultanimMubin/Path
+          repository: Sultanimmubin/Path
           token: ${{ secrets.PAT }}
-          path: SultanimMubin/Path
-      - name: Copy SultanimMubin/Path to root
+          path: Sultanimmubin/Path
+      - name: Copy Sultanimmubin/Path to root
         run: |
-          cp -r $GITHUB_WORKSPACE/SultanimMubin/Path /SultanimMubin/Path 
+          cp -r $GITHUB_WORKSPACE/Sultanimmubin/Path /Sultanimmubin/Path 
 
-      - name: Get SultanimMubin/Common
+      - name: Get Sultanimmubin/Common
         uses: actions/checkout@v3
         with:
-          repository: SultanimMubin/Common
+          repository: Sultanimmubin/Common
           token: ${{ secrets.PAT }}
-          path: SultanimMubin/Common
-      - name: Copy SultanimMubin/Common to root
+          path: Sultanimmubin/Common
+      - name: Copy Sultanimmubin/Common to root
         run: |
-          cp -r $GITHUB_WORKSPACE/SultanimMubin/Common /SultanimMubin/Common 
+          cp -r $GITHUB_WORKSPACE/Sultanimmubin/Common /Sultanimmubin/Common 
       
       - name: Build production docker
         run: |
-          cd /SultanimMubin/Path
+          cd /Sultanimmubin/Path
           /HolismHolding/Commands/Build
 
       - name: Log in to GitHub Container Repository
