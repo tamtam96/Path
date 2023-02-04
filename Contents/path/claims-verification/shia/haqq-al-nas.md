@@ -1,0 +1,3 @@
+- [جبران حق الناس در قیامت](https://wiki.ahlolbait.com/%D8%AD%D9%82_%D8%A7%D9%84%D9%86%D8%A7%D8%B3)
+- Quran says the opposite
+    - 3:128
