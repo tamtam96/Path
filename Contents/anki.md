@@ -1,5 +1,21 @@
 # Anki
 
+### Why?
+
+|          | Storage | Compute | Thinking |
+|----------|:-------:|:-------:|:--------:|
+| Computer |    ✔️    |    ✔️    |          |
+| Human    |         |         |     ✔️    |
+
+Because we are very weak at storing data in our brains.
+
+A computer stores an entire dictionary in almost 10 seconds (copy/paste), but we have to spend years to only learn 5 thousand words.
+
+Anki boosts the **storage** portion of our brains.
+
+
+### Procedure
+
 - Download [AnkiDroid Flashcards](https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en&gl=US)
 - Signup in [ankiweb.net](https://ankiweb.net/about)
 - Configure Anki
