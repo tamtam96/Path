@@ -1,0 +1,107 @@
+﻿<h1>نکن</h1>
+
+<ul style="direction: ltr;">
+    <li>
+        General (technology-agnostic)
+        <ul>
+            <li>DO NOT learn 100% of a given technology. Lear only as you need.</li>
+            <li>
+                DO NOT use scaffolding
+                <ul>
+                    <li>Because they might look easy and handy at first, but they get very nasty when you try to customize them for your need.</li>
+                    <li>Because they abstract you from the concepts that are necessary for you to know when you're doing something out of routine.</li>
+                </ul>
+            </li>
+            <li>
+                DO NOT use templates provided by IDEs
+                <ul>
+
+                    <li>Because templates are there only as catalysts for RAD (Rapid Application Development). They are some scaffolds that you can use to create a typical project of that type. However, as you get more serious about your project, your customization level requires you to know much more about the file-system hierarchy standard, and the files and file types you might not be familiar with, for example, build files (.gradle, or .csproj). In that case, you need to have your standard. But having a template proves to shape you into its standard as since it's limited and usually flawed, it limits your abilities.</li>
+                </ul>
+            </li>
+            <li>
+                DO NOT use DI and IoC, if you're not testing
+                <ul>
+                    <li>
+                        Because for each service, for no benefit you have to:
+                        <ul>
+                            <li>Create an interface</li>
+                            <li>Implement that interface in a concrete class</li>
+                            <li>Write boilerplate code to inject that interface into classes</li>
+                            <li>Create extra FHS (Filesystem Hierarchy Standard) to manage interfaces</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Specific
+        <ul>
+            <li>
+                Entity Framework Core
+                <ul>
+                    <li>DO NOT use code-first and migrations</li>
+                    <li>Because if the database is not compatible with migration ids, then you end up with a thousand errors that are very hard to debug and fix.</li>
+                    <li>Because Ids of migrations might not map database version history. Because you might delete and recreate migrations.</li>
+                    <li>It litters your database and your code. EF Code-first to database and code is like attributes to POCOs.</li>
+                    <li>It's not idempotent. Create a simple EF Core project. Add migration. Update database. Then delete migration. Add migration again. Update database. Now you see errors. This means that if for any reason migrations code is deleted (which is very possible) we end up in a mess and non-idempotency.</li>
+                </ul>
+            </li>
+            <li>
+                REST
+                <ul>
+                    <li>DO NOT return 204 HTTP response code</li>
+                    <li>Because the result won't be shown in the browser, and the URL won't stick in the Omnibox. Because development gets implicit and developer might get puzzled while trying to understand why he does not receive the results. It's tricky.</li>
+                    <li>DO NOT use content negotiation</li>
+                    <li>content negotiation is very tricky and has a complex flowchart. Always send JSON if possible. Always force format on clients.</li>
+                    <li>
+                        DO NOT use RESTful HTTP verbs other than GET and POST
+                        <ul>
+                            <li>Because they are hard and tricky to configure in IIS</li>
+                            <li>Because they are hard to test</li>
+                            <li>Because they make web API calls more implicit and less explicit</li>
+                            <li>
+                                Because GET and POST are enough for our needs
+                                <ul>
+                                    <li>GET for read (not changing state)</li>
+                                    <li>POST for write (changing state)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                C#
+                <ul>
+                    <li>
+                        DO NOT use #nullable directive in C#
+                        <ul>
+                            <li>Because it ruins your code formatting and messes up with your homemade quality tools, which are way more valuable to the team than them.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                ASP.NET Core
+                <ul>
+                    <li>
+                        DO NOT use custom routing rules.
+                        <ul>
+                            <li>Because they tend to become very opinion-based and prevents higher-level order.</li>
+                            <li>Because they reduce URL readability by removing parameter names from URLs.</li>
+                            <li>Because they make code order-dependent for parameters, thus more difficult to refactor</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Holism
+        <ul>
+            <li>DO NOT use attributes other than HttpGet, HttpPost, or UsageEligibility on your action methods.</li>
+        </ul>
+    </li>
+</ul>

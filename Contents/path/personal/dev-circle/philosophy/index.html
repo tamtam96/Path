@@ -1,0 +1,201 @@
+﻿<h1>فلسفه</h1>
+
+<ul>
+    <li>
+        <a href="/dev-circle/philosophy/do">بکن</a>
+    </li>
+    <li>
+        <a href="/dev-circle/philosophy/do-not">نکن</a>
+    </li>
+    <li>
+        <a href="/dev-circle/philosophy/configuration">تنظیمات</a>
+    </li>
+    <li>
+        <a href="/dev-circle/philosophy/sources">منابع</a>
+    </li>
+</ul>
+
+<ul style="direction: ltr;">
+    <li>Single branch in VCS</li>
+    <li>API per role</li>
+    <li>Panel per role</li>
+    <li>Either:
+        <ul>
+            <li>Role * Modules = Number of projects (.csproj files)</li>
+            <li>Reusables only up to common APIs and common Webs, runnables API and panel per role</li>
+        </ul>
+    </li>
+    <li>The number is for PC, the text is for human</li>
+    <li>Have FHS (file-system hierarchy standard)
+        <ul>
+            <li>Linux has it</li>
+            <li>Laravel has it</li>
+            <li>Angular has it</li>
+            <li>...</li>
+        </ul>
+    </li>
+    <li>Conventions at the max-level of business entity</li>
+    <li>
+        Pyramid of expertise
+        <ul>
+            <li>Seniors create tools and infrastructure</li>
+            <li>Juniors work on projects</li>
+            <li>Cost reduction</li>
+            <li>Higher chance of recruitment</li>
+            <li>More consistency across projects</li>
+            <li>Less friction between team members</li>
+        </ul>
+    </li>
+    <li>
+        We choose technology based on our needs
+        <ul>
+            <li>Not technologies forming us based on their capabilities</li>
+            <li>Neither marketing strategies and technology hype straying us</li>
+        </ul>
+    </li>
+    <li>
+        Always be ready for huge refactors
+        <ul>
+            <li>
+                Accept change
+                <ul>
+                    <li>Business-oriented</li>
+                    <li>Technical-oriented</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Type of projects
+        <ul>
+            <li>Executable</li>
+            <li>Reusable</li>
+            <li>Executable Reusable</li>
+        </ul>
+    </li>
+    <li>
+        Project creation is done by always duplicating the last similar working project as the template fora new one
+        <ul>
+            <li>Executable for executable</li>
+            <li>Reusable for reusable</li>
+            <li>Executable-Reusable for executable-reusable</li>
+        </ul>
+    </li>
+    <li>
+        Engineering Maturity
+        <ul>
+            <li>No engineering</li>
+            <li>Intra-project engineering</li>
+            <li>Cross-project engineering</li>
+            <li>Organization-wide engineering</li>
+            <li>Cross-organization engineering (holding company)</li>
+            <li>Worldwide engineering</li>
+        </ul>
+    </li>
+    <li>
+        Single-version
+        <ul>
+            <li>Dependencies</li>
+            <li>
+                And us
+                <ul>
+                    <li>Android does the same</li>
+                    <li>Angular does the same</li>
+                    <li>.NET Core does the same</li>
+                </ul>
+            </li>
+            <li>No version history</li>
+            <li>No branching</li>
+        </ul>
+    </li>
+    <li>
+        Internationalization/globalization, and localization
+        <ul>
+            <li>it's not just about layout</li>
+            <li>it's not just about UI and labels</li>
+            <li>it's about data too</li>
+            <li>
+                it's about the calendar, date-time, number, concurrency, etc. (culture)
+                <ul>
+                    <li>And built-in cultures are not consistent with widespread usage too. For example, we don't use
+                        ق.ظ and ب.ظ in Persian.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Enums in database
+        <ul>
+            <li>Because a lot of times we use the database directly (SSMS), and we need to be able to understand
+                numerical values</li>
+            <li>Number/text mapping = enum in code = enum table in database</li>
+            <li>Views to join numbers and texts (data tables with reference tables)</li>
+            <li>Database tests to keep code-level enums mapped with database reference tables</li>
+            <li>Reusable centralized code to expose enums to clients (Web, Android, iOS, etc.) through API</li>
+            <li>Policies to ensure proper enum definition, both at database level and code level</li>
+            <li>Having an <b>Unknown</b> value in all enums that mapps to 0</li>
+            <li>Keeping enums POCO, without attributes and other stuff</li>
+            <li>Keeping enum reference tables lightweight</li>
+            <li>No translation of enum keys in database and code, only in client and according to the selected culture
+            </li>
+            <li>Committing enum table's static data into VCS</li>
+        </ul>
+    </li>
+    <li>Use Environment Variables for Project Collections</li>
+    <li>
+        OTPs should be repeated during a lifetime
+        <ul>
+            <li>To prevent the problems related to order of sending and receiving</li>
+        </ul>
+    </li>
+    <li>Do not use jack-of-all-trade solutions, for custom requirements</li>
+    <li>
+        Client-side frameworks
+        <ul>
+            <li>State management
+                <ul>
+                    <li>DO NOT use Redux, or other state management libraries, blindly everywhere</li>
+                    <li>For intra-project state, don't use Redux. Simply manage state inside that component</li>
+                    <li>For parent-child components, use whatever that framework offers</li>
+                    <li>For other cross-component communications, use Redux</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Inside a holding, codes should become more declarative in projects, and more imperative in the infrastructure.
+        <ul>
+            <li>Developers should only "declare" things:
+                <ul>
+                    <li>This list has huge data => infra won't show linked pagination, and will show infinite scrolling.
+                    </li>
+                    <li>These are my menu items => infra shows them a it pleases and where it wants.</li>
+                    <li>I need a country/city cascade/browse here => infra shows the fields, and fills them with data
+                        and provides browsing and cascading functionality.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Data generation
+        <ul>
+            <li>Use a faker library
+                <ul>
+                    <li>https://github.com/faker-ruby/faker for Ruby</li>
+                    <li>https://github.com/fzaninotto/Faker for PHP</li>
+                    <li>...</li>
+                </ul>
+            </li>
+            <li>Extend in case of necessity</li>
+            <li>Should be reusable across the entire projects of holding, EASILY</li>
+        </ul>
+    </li>
+    <li>
+        Layered architecture
+        <ul>
+            <li>abstrat => data, logic, access</li>
+            <li>three-layered => data access layer, business logic layer, API/Presentation</li>
+            <li>how onion/clean maps?</li>
+        </ul>
+    </li>
+</ul>

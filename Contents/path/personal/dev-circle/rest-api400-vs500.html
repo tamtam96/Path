@@ -1,0 +1,17 @@
+https://enterprisecraftsmanship.com/posts/rest-api-response-codes-400-vs-500/
+
+4xx codes indicate errors caused by the user. They are basically validation errors.
+
+5xx codes indicate errors caused by the server itself. They are unexpected situations (bugs and hardware failures).
+
+It’s important to differentiate the two. It’ll help inform users about how they can fix the problem if it appears to be on their end, and it will also help you track and fix problems on the server side. Never mask server failures behind 400 responses.
+
+There are some simple guidelines regarding how to handle 400 and 500 errors.
+
+All unhandled exceptions should result in a 500 response code.
+
+Put a single generic handler to the very top of your execution stack to handle all 500 errors.
+
+Handle all 400 errors separately and provide each of them with a thorough error message.
+
+Never return 500 errors intentionally. The only way your service should respond with a 500 code is by processing an unhandled exception.

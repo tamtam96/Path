@@ -1,0 +1,45 @@
+<h1>Redux</h1>
+
+<ul style="direction: ltr;">
+	<li>
+		Aweful, terribly misleading terminology
+		<ul>
+			<li>Action, Reducer are very very bad terms
+				<ul>
+					<li>
+						<p>
+						Instead of action, I would use the term "event".
+						</p>
+						<p>
+						For example in a todo app, instead of defining an action that is called "addTodo", I'll define an event called "addedTodo". Because based on passing parameters to actions and from actions to reducers, we're dealing with an actual event that has happened from user interaction or another source, rather than just describing an abstract idea. 
+						</p>
+						<p>
+							Actions describe what are about to happen. Events describe what happened.
+						</p>
+						<p>
+							From <a href='https://redux.js.org/introduction/core-concepts' target='_blank'>redux docs</a>:
+						</p>
+						<p>
+							<quote>
+							An action is a plain JavaScript object (notice how we don’t introduce any magic?) that describes what happened.
+							</quote>
+						</p>
+					</li>
+					<li>Instead of reducer, I would use the term "handler". What reducer does, is to handle different actions in one central place. It's more like an orchestrator of handlers. When this event happened, change state based on these parameters. When that event happend, do so with those parameters, etc.</li>
+				</ul>
+			</li>
+			<li>
+				Action thunk is bad. I would use "event template".
+			</li>
+			<li>
+				Store is not that bad, but since people think of a shop when we say store, and also developers use other terms for this, I would prefer to use "container" or "repository" instead of store.
+			</li>
+			<li>State, Dispatch and Connect are good terms</li>
+		</ul>
+	</li>
+	<li>
+		A good gif from redux docs:
+		<br />
+		<img src="https://redux.js.org/assets/images/ReduxAsyncDataFlowDiagram-d97ff38a0f4da0f327163170ccc13e80.gif" alt="Redux flow" />
+	</li>
+</ul>
