@@ -56,3 +56,5 @@
 نقش تدریجی نباشد نفی او
 
 بهر نفیش حرف دیگر بازگو
+
+[Sample of descent with modification](https://youtu.be/E7qJQ2i47ZY)
