@@ -1,0 +1,1 @@
+- If chance has made life, then why chance has done nothing over 4 billion years on the mars? Not even creating life, but creating a structure, like a table in 4 billion years.
