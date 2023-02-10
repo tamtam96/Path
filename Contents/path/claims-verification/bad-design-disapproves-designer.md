@@ -1,0 +1,2 @@
+- girrafs nerve?
+- how about remained non-functional code in software?
