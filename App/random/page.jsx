@@ -6,17 +6,17 @@ import {
     useRef,
     useState,
 } from 'react'
-import { videos as CognitoVideos } from '../cognito/page'
-import { videos as DaveVideos } from '../dave/page'
-import { videos as CrashVideos } from '../crash/page'
-import { videos as SistersVideos } from '../sisters/page'
-import { videos as ParthVideos } from '../parth/page'
-import { videos as DonVideos } from '../don/page'
-import { videos as BlueBrown } from '../blue/page'
-import { videos as Free } from '../free/page'
-import { videos as Fuse } from '../fuse/page'
-import { videos as Ninja } from '../ninja/page'
-import { videos as Jared } from '../jared/page'
+import { videos as CognitoVideos } from '../../Components/Science/Cognito.jsx'
+import { videos as DaveVideos } from '../../Components/Science/Dave.jsx'
+import { videos as CrashVideos } from '../../Components/Science/Crash.jsx'
+import { videos as SistersVideos } from '../../Components/Science/Sisters.jsx'
+import { videos as ParthVideos } from '../../Components/Science/Parth.jsx'
+import { videos as DonVideos } from '../../Components/Science/Don.jsx'
+import { videos as BlueBrown } from '../../Components/Science/Blue.jsx'
+import { videos as Free } from '../../Components/Science/Free.jsx'
+import { videos as Fuse } from '../../Components/Science/Fuse.jsx'
+import { videos as Ninja } from '../../Components/Science/Ninja.jsx'
+import { videos as Jared } from '../../Components/Science/Jared.jsx'
 
 const Random = () => {
 

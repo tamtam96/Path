@@ -8,6 +8,9 @@
       "Web": [
         "Components/Web/Exports"
       ],
+      "Science": [
+        "Components/Science/Exports"
+      ],
       "Contexts": [
         "Contexts/Exports"
       ],
