@@ -941,19 +941,3 @@ export const videos = [
     "rlH1ym916Fo",
     null
 ]
-
-const Fuse = ({ videoCode }) => {
-
-    return <a target='_blank' href={`https://youtube.com/watch?v=${videoCode}`}>Random Video ({videoCode})</a>
-}
-
-export default Fuse
-
-export async function getServerSideProps({ params, res }) {
-    const randomVideo = videos[Math.floor(Math.random() * videos.length)];
-    return {
-        props: {
-            videoCode: randomVideo
-        }
-    }
-}

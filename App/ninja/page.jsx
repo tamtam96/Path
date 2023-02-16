@@ -598,19 +598,3 @@ export const videos = [
     "SGzp9wqeu84",
     "Jk_9IhHVOTk",
 ]
-
-const Ninja = ({ videoCode }) => {
-
-    return <a target='_blank' href={`https://youtube.com/watch?v=${videoCode}`}>Random Video ({videoCode})</a>
-}
-
-export default Ninja
-
-export async function getServerSideProps({ params, res }) {
-    const randomVideo = videos[Math.floor(Math.random() * videos.length)];
-    return {
-        props: {
-            videoCode: randomVideo
-        }
-    }
-}
