@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from 'react'
 import YouTube from 'react-youtube';
 
@@ -6451,7 +6453,9 @@ var videos = [
     "DHePC1_6NQ4"
 ]
 
-const Nouman = ({ videoCode }) => {
+const Nouman = ({ randomVideo }) => {
+
+    const [randomVide, setRandomVideo] = useState()
 
     const onEnd = () => {
         document.location.reload()
@@ -6465,7 +6469,7 @@ const Nouman = ({ videoCode }) => {
     }
 
     const toggleAutoplay = e => {
-        
+
     }
 
     useEffect(() => {
@@ -6476,17 +6480,19 @@ const Nouman = ({ videoCode }) => {
                 clearInterval(interval)
             }
         }, 500)
+
+        setRandmVideo(videos[Math.floor(Math.random() * videos.length)])
     }, [])
 
     return <div>
         <a
             className="ml-10 block my-4"
             target='_blank'
-            href={`https://youtube.com/watch?v=${videoCode}`}
-        >Random Video ({videoCode})</a>
+            href={`https://youtube.com/watch?v=${randomVideo}`}
+        >Random Video ({randomVideo})</a>
         {
             <YouTube
-                videoId={videoCode}
+                videoId={randomVideo}
                 opts={{
                     height: '390',
                     width: '640',
@@ -6506,12 +6512,3 @@ const Nouman = ({ videoCode }) => {
 }
 
 export default Nouman
-
-export async function getServerSideProps({ params, res }) {
-    const randomVideo = videos[Math.floor(Math.random() * videos.length)];
-    return {
-        props: {
-            videoCode: randomVideo
-        }
-    }
-}

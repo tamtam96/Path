@@ -41,30 +41,7 @@ const links = [
     "https://www.youtube.com/playlist?list=PLybg94GvOJ9FtPwX7d__ppo-ke_iwAqIA",
 ]
 
-const Playlist = ({ linksAndTitles }) => {
-
-    return <ul className="m-10">
-        {
-            linksAndTitles?.map((i, index) => <li
-                key={index}
-                className="border-b mt-2"
-            >
-                <a href={i.link}>
-                    <b>
-                        {i.title}
-                    </b>
-                </a>
-                <span className="text-xs text-gray-600 mt-0.5 block pb-2">
-                    {i.link}
-                </span>
-            </li>)
-        }
-    </ul>
-}
-
-export default Playlist
-
-export async function getServerSideProps(context) {
+const Playlist = async () => {
 
     const targetFile = path.join.apply(null, [process.cwd(), "html"])
 
@@ -94,9 +71,23 @@ export async function getServerSideProps(context) {
 
     console.log(linksAndTitles)
 
-    return {
-        props: {
-            linksAndTitles
+    return <ul className="m-10">
+        {
+            linksAndTitles?.map((i, index) => <li
+                key={index}
+                className="border-b mt-2"
+            >
+                <a href={i.link}>
+                    <b>
+                        {i.title}
+                    </b>
+                </a>
+                <span className="text-xs text-gray-600 mt-0.5 block pb-2">
+                    {i.link}
+                </span>
+            </li>)
         }
-    }
+    </ul>
 }
+
+export default Playlist

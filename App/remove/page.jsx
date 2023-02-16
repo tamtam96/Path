@@ -4,14 +4,7 @@ const path = require('path')
 const codes = [
 ]
 
-const Remove = ({ content }) => {
-    return <div dangerouslySetInnerHTML={{ __html: content }}>
-    </div>
-}
-
-export default Remove
-
-export async function getServerSideProps({ params, res }) {
+const Remove = () => {
     const targetFile = path.join.apply(null, [process.cwd(), "pages", "crash.js"])
     if (!fs.existsSync(targetFile)) {
         console.log(`File not found: ${targetFile}`)
@@ -27,9 +20,10 @@ export async function getServerSideProps({ params, res }) {
     } catch (err) {
         console.error(err);
     }
-    return {
-        props: {
-            content
-        }
-    }
+
+    return <div dangerouslySetInnerHTML={{ __html: content }}>
+    </div>
 }
+
+export default Remove
+
