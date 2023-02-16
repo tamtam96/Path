@@ -5,7 +5,7 @@ const codes = [
 ]
 
 const Remove = () => {
-    const targetFile = path.join.apply(null, [process.cwd(), "pages", "crash.js"])
+    const targetFile = path.join.apply(null, [process.cwd(), "Components", "Science", "Crash.jsx"])
     if (!fs.existsSync(targetFile)) {
         console.log(`File not found: ${targetFile}`)
     }
