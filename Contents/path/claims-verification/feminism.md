@@ -50,3 +50,7 @@ If men and women are euqal, why sports are segragated by gender?
 
 ### provision and protection
 Do women loke to provide for men while they keep babies? Do women like to protect men?
+
+
+### Let feminists explain
+[why almost all are men](https://youtu.be/dZyxZzWjd9M)
