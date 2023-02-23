@@ -23,3 +23,7 @@
 - Air conditioner
 - Microwave
 - ...
+
+https://www.youtube.com/watch?v=qKz3LmaxKuE
+
+Pipes and wires (arteries, veisn and nerves)
