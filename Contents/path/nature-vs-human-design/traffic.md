@@ -1,0 +1,3 @@
+- roads in our body does not have traffic congestion
+- congestion = death
+- human roads have congestion
