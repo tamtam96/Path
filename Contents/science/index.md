@@ -68,6 +68,7 @@
 - https://youtu.be/vNvZaGcLzEo
 - https://youtube.com/c/Douroussi
 - https://youtube.com/@Corporis
+- https://youtube.com/@EngineeringMindset
 
 ---
 
