@@ -11,6 +11,7 @@
   - Exclude peace and literature
   - [Table by gender](https://stats.areppim.com/stats/stats_nobel_sexxcat.htm)
   - [Chart by gender](https://www.statista.com/chart/2805/nobel-prize-winners-by-gender/)
+- https://math.stackexchange.com/users?tab=Reputation&filter=all
 
 ### Anatomical/physiological proofs
 
