@@ -24,3 +24,5 @@ Extra chromosomes =» Not Forming Sperm =» Stopping being Polyspermy
 Function:
 
 sperm enters(signaling pathway) =» Release egg into outer space =» Compound Wall & Material Inside(Zona Pellucida)
+
+- Cortical reaction
