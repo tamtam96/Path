@@ -170,3 +170,5 @@ He did his job
 She did her job   
 
 اون کارشو انجام داد   
+
+skeletal muscle = ltl
